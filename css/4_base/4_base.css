@@ -53,7 +53,9 @@ table {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "header header"
                          "article picture"
-                         "footer  picture"
+                         "footer  picture";
+	width: 80%;
+	margin: 25px auto;		
 
 }
 
@@ -67,4 +69,13 @@ header{
 nav{
     flex-grow: 1;
 
+}
+
+article{
+	grid-area: article;
+}
+
+picture{
+	grid-area: picture;
+	justify-self: end;
 }
