@@ -1,4 +1,4 @@
-@import "/css/4_base/4_base.css";
-@import "/css/5_objects/5_objects.css";
-@import "/css/6_components/6_components.css";
-@import "/css/7_trumps/7_thumps.css"
+@import "./css/4_base/4_base.css";
+@import "./css/5_objects/5_objects.css";
+@import "./css/6_components/6_components.css";
+@import "./css/7_trumps/7_thumps.css"
