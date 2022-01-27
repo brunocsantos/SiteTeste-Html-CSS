@@ -84,4 +84,42 @@
     color: #adadad;
 }
 
+.send-message{
+   width: 504px;
+   height: 51px;
+   border-radius: 26px;
+   box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+   -webkit-box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+   background-color: #ffffff;
+ 
+}
 
+.send-message > i > img{
+    padding-left: 15px;
+    position: relative;
+    top: 10px;
+}
+
+.send-message input{
+    padding: 18px 10px;
+    border: none;
+    width: 353px;
+}
+
+.send-message button{
+    width: 80px;
+    height: 45px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    background-color: #488cf5;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.send-message button:hover{
+    background-color: #f4891f;
+
+}
