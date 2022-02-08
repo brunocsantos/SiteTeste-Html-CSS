@@ -1,4 +1,9 @@
 @media only screen and (max-width: 550px){
+    
+    body{
+        overflow-x: hidden;
+    }
+
     #brand{
         margin-left: 15px;
     }
@@ -21,6 +26,8 @@
         background-color: #6066f2;
         left: -100%;
         z-index: 10;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
     }
 
     #navigation > ul{
@@ -51,6 +58,11 @@
 
     #navigation.active{
         left: 0;
+        transition: all 0.3s ease;
+    }
+
+    .item-menu-responsive{
+        visibility: visible !important;
     }
     
 }
